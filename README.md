@@ -129,8 +129,3 @@ python comparison/compare_all.py
 - GRU 在准确率与错误率方面优于传统 KF，但略逊于 BrainBERT。
 - KF 作为传统基线可提供参考，但在该任务上性能差距较大。
 
-## Notes for GitHub Upload
-
-- 模型权重文件体积较大，已通过 `.gitignore` 忽略 `*.pt` 与 `*.pkl`。
-- 如果你希望在 GitHub 上同时托管权重，建议使用 [Git LFS](https://git-lfs.com/)。
-
